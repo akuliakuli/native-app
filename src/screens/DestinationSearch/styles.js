@@ -21,9 +21,6 @@ const styles = StyleSheet.create({
         borderRadius:10,
         marginRight:15
     },
-    locationText: {
-        fo
-    }
 })
 
 export default styles;
