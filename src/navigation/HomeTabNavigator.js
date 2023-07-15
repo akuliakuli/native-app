@@ -8,22 +8,22 @@ import EvilIcons from 'react-native-vector-icons/EvilIcons'
 import Fontisto from 'react-native-vector-icons/Fontisto'
 
 import HomeScreen from '../screens/Home';
+import ExploreNavigator from './ExploreNavigator';
 
 const Tab = createBottomTabNavigator();
 
 const HomeTabNavigator = () => {
   return (
-    <Tab.Navigator tabBarOptions={{
-        activeTintColor: "#f15454"
-    }}>
+    <Tab.Navigator screenOptions={{activeTintColor: 'red'}}>
         <Tab.Screen 
-            name={"Home"}
-            component={HomeScreen}
+            name={"Explore"}
+            component={ExploreNavigator}
             options={{
                 tabBarIcon: ({}) => {
                     <Fontisto name='search' size={25}/>;
-
-                }
+                    
+                },
+                headerShown: false
             }}
         />
         <Tab.Screen 
@@ -31,8 +31,9 @@ const HomeTabNavigator = () => {
             component={HomeScreen}
             options={{
                 tabBarIcon: ({}) => {
-                    <FontAwesome name='heart-o' size={25} color={color} />;
-                }
+                    <FontAwesome name='heart-o' size={25} />;
+                },
+                headerShown: false
         }}
         />
         <Tab.Screen 
@@ -40,9 +41,10 @@ const HomeTabNavigator = () => {
             component={HomeScreen}
             options={{
                 tabBarIcon: ({}) => {
-                    <FontAwesome5 name='airbnb' size={25} color={color} />;
+                    <FontAwesome5 name='airbnb' size={25}  />;
 
-                }
+                },
+                headerShown: false
             }}
         />
         <Tab.Screen 
@@ -50,8 +52,9 @@ const HomeTabNavigator = () => {
             component={HomeScreen}
             options={{
                 tabBarIcon: ({}) => {
-                    <Feather name='message-square' size={25} color={color} />;
-                }
+                    <Feather name='message-square' size={25} />;
+                },
+                headerShown: false
             }}
         />
         <Tab.Screen 
@@ -59,7 +62,7 @@ const HomeTabNavigator = () => {
             component={HomeScreen}
             options={{
                 tabBarIcon: ({}) => {
-                    <EvilIcons name='user' size={25} color={color} />;
+                    <EvilIcons name='user' size={25} />;
                 }
             }}
         />
