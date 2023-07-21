@@ -4,15 +4,17 @@ import feed from '../../../assets/data/feed'
 import Post from '../../components/post'
 
 
-const SearchResultScreen = () => {
-    return(
-        <View>
-            <FlatList 
-                data={feed}
-                renderItem={(item) => <Post post={item} />}
-            />
-        </View>
-    )
-}
+const SearchResultsScreen = (props) => {
+    const { posts } = props;
+     return (
+      <View>
+        <FlatList
+          data={posts}
+          renderItem={({item}) => <Post post={item} />}
+        />
+      </View>
+    );
+  };
+  
+export default SearchResultsScreen;
 
-export default SearchResultScreen

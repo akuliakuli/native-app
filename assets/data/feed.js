@@ -1,10 +1,11 @@
 export default [
     {
       id: '0',
-      image: 'https://www.thompsonsustainablehomes.com.au/wp-content/uploads/2018/09/Lot-1599-Internal-kitchen2-1024x770.jpg',
+      image: 'https://previews.123rf.com/images/pkazmierczak/pkazmierczak1712/pkazmierczak171200529/92630975-typical-white-greek-house-with-blue-doors-and-windows-in-naoussa-village-paros-island-greece.jpg',
       type: 'Private Room',
       title: 'Bright room in the heart of the city',
       bed: 2,
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       bedroom: 3,
       oldPrice: 3425,
       newPrice: 220,
@@ -16,8 +17,10 @@ export default [
     },
     {
       id: '1',
-      image: 'https://www.thompsonsustainablehomes.com.au/wp-content/uploads/2018/09/Lot-1599-Internal-kitchen2-1024x770.jpg',
+      image: 'https://previews.123rf.com/images/pkazmierczak/pkazmierczak1712/pkazmierczak171200529/92630975-typical-white-greek-house-with-blue-doors-and-windows-in-naoussa-village-paros-island-greece.jpg',
       type: 'Entire Flat',
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
       title: 'NEW lux. apartment in the center of Santa Cruz',
       bed: 3,
       bedroom: 2,
@@ -31,9 +34,11 @@ export default [
     },
     {
       id: '2',
-      image: 'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg',
-      type: 'Private Property',
-      title: 'Green House Santa Cruz',
+      image:"https://previews.123rf.com/images/pkazmierczak/pkazmierczak1712/pkazmierczak171200529/92630975-typical-white-greek-house-with-blue-doors-and-windows-in-naoussa-village-paros-island-greece.jpg",
+      type:"Condo",
+      title:"Big and modern house",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
       bed: 2,
       bedroom: 1,
       oldPrice: 64,
@@ -46,9 +51,11 @@ export default [
     },
     {
       id: '3',
-      image: 'https://www.thompsonsustainablehomes.com.au/wp-content/uploads/2018/09/Lot-1599-Internal-kitchen2-1024x770.jpg',
+      image: 'https://previews.123rf.com/images/pkazmierczak/pkazmierczak1712/pkazmierczak171200529/92630975-typical-white-greek-house-with-blue-doors-and-windows-in-naoussa-village-paros-island-greece.jpg',
       type: 'Entire Flat',
       title: 'Typical canarian house',
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+
       bed: 4,
       bedroom: 3,
       oldPrice: 120,

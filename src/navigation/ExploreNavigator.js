@@ -1,11 +1,12 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import HomeScreen from '../screens/Home';
+import SearcResultsScreen from '../screens/SearchResults';
 import SearchResultsTabNavigator from "./SearchResultsTabNavigator";
 
 const Stack = createStackNavigator();
 
-const ExploreNavigator = (props) => {
+const Router = (props) => {
   return (
     <Stack.Navigator>
 
@@ -28,4 +29,4 @@ const ExploreNavigator = (props) => {
   );
 };
 
-export default ExploreNavigator;
+export default Router;
